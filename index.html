@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica de Saúde Bem-Estar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-white shadow-md py-6">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <h1 class="text-3xl font-bold text-teal-600">Clínica Bem-Estar</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#servicos" class="text-gray-600 hover:text-teal-600 transition-colors duration-300">Serviços</a></li>
+                    <li><a href="#equipe" class="text-gray-600 hover:text-teal-600 transition-colors duration-300">Equipe</a></li>
+                    <li><a href="#contato" class="text-gray-600 hover:text-teal-600 transition-colors duration-300">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <!-- Hero Section -->
+        <!-- Hero Section with Background Image and Overlay -->
+        <section class="relative py-20 rounded-b-3xl shadow-lg overflow-hidden" style="background-image: url('img/cuidando_de_voce.jpg'); background-size: cover; background-position: center 32%;">
+            <!-- Overlay for text readability -->
+            <div class="absolute inset-0 bg-black opacity-50 rounded-b-3xl"></div>
+            <div class="relative z-10 text-white text-center container mx-auto px-6">
+                <h2 class="text-5xl font-extrabold leading-tight">Cuidando de você, do seu bem-estar e da sua saúde</h2>
+                <p class="mt-4 text-xl">Sua jornada para uma vida mais saudável começa aqui. Oferecemos um atendimento completo e humanizado.</p>
+                <a href="#contato" class="mt-8 inline-block bg-white text-teal-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-200 transition-colors duration-300 transform hover:scale-105">Agende sua consulta</a>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="servicos" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-teal-600">Nossos Serviços</h2>
+                <p class="text-center text-gray-600 mt-4 max-w-2xl mx-auto">Conheça o que oferecemos para cuidar da sua saúde e bem-estar.</p>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 mt-12">
+                    <!-- Service Card 1 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300">
+                        <img src="img/Atendimento.jpg" alt="Atendimento Medico" class="rounded-full h-32 w-32 object-cover mb-6">
+                        <h3 class="text-2xl font-semibold text-gray-800">Atendimento Médico</h3>
+                        <p class="mt-2 text-gray-600">Consultas e acompanhamento com profissionais qualificados em diversas especialidades.</p>
+                    </div>
+                    <!-- Service Card 2 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300">
+                        <img src="img/Exame.jpg" alt="Exame Laboratoriais"
+
+[Image of laboratory analysis]
+" class="rounded-full h-32 w-32 object-cover mb-6">
+                        <h3 class="text-2xl font-semibold text-gray-800">Exames Laboratoriais</h3>
+                        <p class="mt-2 text-gray-600">Realizamos exames de rotina e especializados com alta tecnologia para um diagnóstico preciso.</p>
+                    </div>
+                    <!-- Service Card 3 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300">
+                        <img src="img/Aconselhamento.jpg" alt="Aconselhamento Nutricional" class="rounded-full h-32 w-32 object-cover mb-6">
+                        <h3 class="text-2xl font-semibold text-gray-800">Aconselhamento Nutricional</h3>
+                        <p class="mt-2 text-gray-600">Planos alimentares personalizados para uma vida mais equilibrada e saudável.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="equipe" class="bg-gray-200 py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-teal-600">Nossa Equipe</h2>
+                <p class="text-center text-gray-600 mt-4 max-w-2xl mx-auto">Conheça os profissionais dedicados que estão prontos para te ajudar.</p>
+                <div class="grid md:grid-cols-3 gap-10 mt-12">
+                    <!-- Team Member 1 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300">
+                        <img src="img/Dra_Ana.jpg" alt="" class="rounded-full h-40 w-40 object-cover mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Dra. Ana Souza</h3>
+                        <p class="text-teal-600 font-semibold">Cardiologista</p>
+                        <p class="mt-2 text-gray-600">Especialista em saúde do coração, com foco em prevenção e tratamento de doenças cardiovasculares.</p>
+                    </div>
+                    <!-- Team Member 2 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300">
+                        <img src="img/Dr_carlos.jpg" alt="" class="rounded-full h-40 w-40 object-cover mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Dr. Carlos Oliveira</h3>
+                        <p class="text-teal-600 font-semibold">Nutricionista</p>
+                        <p class="mt-2 text-gray-600">Expert em nutrição esportiva e planos alimentares para reeducação alimentar e ganho de massa muscular.</p>
+                    </div>
+                    <!-- Team Member 3 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center hover:shadow-xl transition-shadow duration-300">
+                        <img src="img/Dra_lucia.jpg" alt="" class="rounded-full h-40 w-40 object-cover mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Dra. Lúcia Santos</h3>
+                        <p class="text-teal-600 font-semibold">Clínica Geral</p>
+                        <p class="mt-2 text-gray-600">Com vasta experiência em atendimento primário, é a primeira a orientar e tratar nossos pacientes.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Contact Form -->
+        <section id="contato" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="text-4xl font-bold text-center text-teal-600">Agende sua Visita</h2>
+                <p class="text-center text-gray-600 mt-4 max-w-2xl mx-auto">Preencha o formulário abaixo para entrar em contato conosco.</p>
+                <form class="mt-12 max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
+                    <div class="mb-6">
+                        <label for="nome" class="block text-gray-700 font-semibold mb-2">Nome</label>
+                        <input type="text" id="nome" name="nome" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500" placeholder="Seu nome completo" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="email" class="block text-gray-700 font-semibold mb-2">E-mail</label>
+                        <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500" placeholder="seu-email@exemplo.com" required>
+                    </div>
+                    <div class="mb-6">
+                        <label for="estado" class="block text-gray-700 font-semibold mb-2">Estado</label>
+                        <select id="estado" name="estado" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500" required>
+                            <option value="">Selecione o Estado</option>
+                        </select>
+                    </div>
+                    <div class="mb-6">
+                        <label for="cidade" class="block text-gray-700 font-semibold mb-2">Cidade</label>
+                        <select id="cidade" name="cidade" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-teal-500" required disabled>
+                            <option value="">Selecione a Cidade</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="w-full bg-teal-600 text-white font-bold py-3 px-4 rounded-md shadow-lg hover:bg-teal-700 transition-colors duration-300 transform hover:scale-105">Enviar</button>
+                    <!-- Mensagem de confirmação adicionada aqui -->
+                    <p id="confirmationMessage" class="text-center mt-4 hidden"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-6 mt-12 rounded-t-3xl shadow-inner">
+        <p>&copy; 2024 Clínica Bem-Estar. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
