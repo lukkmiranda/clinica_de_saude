@@ -1,3 +1,6 @@
+<img width="1901" height="341" alt="image" src="https://github.com/user-attachments/assets/f0e9d608-03d1-464c-ac97-c8f34752cff7" />
+
+
 # 🏥 Landing Page - Clínica de Saúde Bem-Estar
 
 ## 🌟 Visão Geral
@@ -34,6 +37,7 @@ Você pode visualizar a landing page diretamente através do **GitHub Pages**:
 Você pode visualizar o vídeo diretamente através do **Drive**:
 
 👉 [Acesse aqui](https://drive.google.com/file/d/19xFsvNRvJWUepRTilr3x-DHGZVRkD-SC/view?usp=drivesdk)
+
 ---
 
 ## 🤝 Contribuição
